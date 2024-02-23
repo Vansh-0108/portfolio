@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bgimage from "../../assets/designer-work-office.jpg"
 import Resume from "../Resume/Resume";
+import Projects from "../projects/Projects";
 
 function Home() {
     return (
@@ -14,6 +15,8 @@ function Home() {
                     <a className="btn rounded-md" href="#contact">Contact Now</a>
                 </div>
             </div>
+            <Projects />
+            <Resume />
         </div>
     );
 }

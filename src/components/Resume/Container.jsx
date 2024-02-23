@@ -10,6 +10,7 @@ function Container() {
             <div className=''>
                 <div className='border border-[var(--main-color)] m-1 mt-4 bg-[var(--main-color)]'>
                     <h1 className='text-[var(--black)] m-1 mt-2 px-2 font-bold uppercase'>The LNM Institute of Information Technology, <span className='capitalize'>Jaipur</span></h1>
+                    <hr className='mx-3 w-[60%] border-[var(--black)]'/>
                     <div className='flow-root pl-1 mx-2 mb-2 text-[var(--black)] font-medium text-sm'>
                         <h3 className='float-left'>Bachelors in Technology</h3>
                         <h3 className='float-right pt-2'>2024</h3>
@@ -24,6 +25,7 @@ function Container() {
             <div className=''>
                 <div className='border border-[var(--main-color)] m-1 mt-4 bg-[var(--main-color)]'>
                     <h1 className='text-[var(--black)] mx-1 mt-2 px-2 font-bold uppercase'>Deloitte</h1>
+                    <hr className='mx-3 w-[60%] border-[var(--black)]'/>
                     <div className='flow-root pl-1 mx-2 mb-2 text-[var(--black)] font-medium text-sm'>
                         <h3 className='float-left'>Software Developer Intern</h3>
                         {/* <h3 className='text-white text-sm float-right'>Jan, 24 - Present</h3> */}

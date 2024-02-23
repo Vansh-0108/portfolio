@@ -7,13 +7,15 @@ function Rating(props) {
         arr.push('fa-solid fa-circle');
     for(let i=0; i < (5-n); i++)
         arr.push('fa-regular fa-circle');
-    
+    let i=0;
 
   return (
     // <div className='flex m-2 ml-10'>
     <>
-        {arr.map((item) => 
-            <i className = {`${item} text-xs p-[0.1rem]`}></i>
+        {arr.map((item) => {
+            i++;
+            return <i key={i} className = {`${item} text-xs p-[0.1rem]`}></i>
+        }
         )}
     </>
     // </div>

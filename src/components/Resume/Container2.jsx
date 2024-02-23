@@ -10,6 +10,7 @@ function Container2() {
             <div className=''>
                 <div className='border border-[var(--main-color)] m-1 mt-4 bg-[var(--main-color)]'>
                     <h1 className='text-[var(--black)] m-1 mt-2 px-2 font-bold uppercase'>Project Number 1</h1>
+                    <hr className='mx-3 w-[60%] border-[var(--black)]'/>
                     <div className='flow-root pl-1 mx-2 mb-2 text-[var(--black)] font-medium text-sm'>
                         <h3 className='float-left'>Skill 1 | Skill 2 | Skill 3</h3>
                         <h3 className='float-right'>Nov'23</h3>
@@ -23,6 +24,7 @@ function Container2() {
             <div className=''>
                 <div className='border border-[var(--main-color)] m-1 mt-4 bg-[var(--main-color)]'>
                     <h1 className='text-[var(--black)] m-1 mt-2 px-2 font-bold uppercase'>Project Number 2</h1>
+                    <hr className='mx-3 w-[60%] border-[var(--black)]'/>
                     <div className='flow-root pl-1 mx-2 mb-2 text-[var(--black)] font-medium text-sm'>
                         <h3 className='float-left'>Skill 1 | Skill 2 | Skill 3</h3>
                         <h3 className='float-right'>Nov'23</h3>
